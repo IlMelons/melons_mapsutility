@@ -1,0 +1,12 @@
+{
+    "menu": {
+        "access": "Access",
+        "locked": "Locked 🔴",
+        "unlocked": "Unlocked 🟢"
+    },
+    "notify": {
+        "title": "Melons Maps Utility",
+        "need_item": "You need an item to unlock this plan",
+        "reached_plan": "You have reached the selected plan"
+    }
+}
