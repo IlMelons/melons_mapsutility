@@ -42,7 +42,7 @@ end
 
 function CreateElevator(elevatorName, elevatorData)
     local elevatorPlans = {}
-    for plan, planData in ipairs(elevatorData.plans) do
+    for _, planData in ipairs(elevatorData.plans) do
         local elevatorPlan = lib.zones.box({
             coords = vec3(planData.teleport.x, planData.teleport.y, planData.teleport.z),
             size = vec3(planData.size.x, planData.size.y, planData.size.z),
