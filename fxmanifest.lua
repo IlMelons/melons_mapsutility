@@ -3,7 +3,7 @@ game "gta5"
 lua54 "yes"
 
 name "melons_mapsutility"
-description "Blips and Elevators for Maps"
+description "An optimized resource for Blips and Elevators management"
 author "IlMelons"
 version "1.0.0"
 
