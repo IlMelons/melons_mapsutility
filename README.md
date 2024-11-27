@@ -1,5 +1,5 @@
 # Melons Maps Utility (Blips & Elevators)
-An optimized resource for Blips and Elevators management using ox_lib and ox_inventory
+An optimized resource for Blips and Elevators management using ox_lib and ox_inventory, special thanks to ENT510 who created the original resource I took inspiration from
 
 ## Dependencies & Start Order
 - ensure `ox_lib`
