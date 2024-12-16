@@ -1,9 +1,9 @@
 return {
-    ElevatorDebug = false,
-    TextUI = "[E] Ascensore",
+    TextUI = "[E] Elevator",
     Elevators = {
         ["fib"] = {
             label = "FIB Headquarter",
+            debug = false,
             plans = {
                 [1] = {
                     title = "Ground Floor",
