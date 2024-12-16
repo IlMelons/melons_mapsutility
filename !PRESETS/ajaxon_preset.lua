@@ -8,6 +8,7 @@ return {
 ---------------------------------------------------------------------------------
     ["aldorehospital1"] = {
         label = "Aldore Hospital 1",
+        debug = false,
         plans = {
             [1] = {
                 title = "Rooftop",
@@ -53,6 +54,7 @@ return {
     },
     ["aldorehospital2"] = {
         label = "Aldore Hospital 2",
+        debug = false,
         plans = {
             [1] = {
                 title = "Rooftop",

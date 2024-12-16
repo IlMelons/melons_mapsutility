@@ -8,6 +8,7 @@ return {
 ---------------------------------------------------------------------------------
     ["diamondcasino"] = {
         label = "Diamond Casino",
+        debug = false,
         plans = {
             [1] = {
                 title = "Rooftop",
@@ -45,6 +46,7 @@ return {
     },
     ["diamondcasino2"] = {
         label = "Diamond Casino",
+        debug = false,
         plans = {
             [1] = {
                 title = "Rooftop",

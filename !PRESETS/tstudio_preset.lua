@@ -8,6 +8,7 @@ return {
 ---------------------------------------------------------------------------------
     ["tropicalheights"] = {
         label = "Tropical Heights",
+        debug = false,
         plans = {
             [1] = {
                 title = "Floor 2",
