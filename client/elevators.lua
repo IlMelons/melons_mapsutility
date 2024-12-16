@@ -58,7 +58,7 @@ function CreateElevator(elevatorName, elevatorData)
                     ShowElevatorMenu(elevatorData.plans, elevatorData.label)
                 end
             end,
-            debug = ConfigElevators.ElevatorDebug,
+            debug = ConfigElevators.Elevators[elevatorName].debug,
         })
         elevatorPlans[planData.title] = elevatorPlan
     end
