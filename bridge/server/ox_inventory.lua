@@ -2,8 +2,8 @@ if GetResourceState("ox_inventory") ~= "started" then return end
 
 local ox_inventory = exports.ox_inventory
 
-function GetItemCount(source, item)
-    local count = ox_inventory:Search(source, "count", item)
+function GetItemCount(source, items)
+    local count = ox_inventory:Search(source, "count", items)
     local item_count = 0
     if type(count) == "table" then
         for k, v in pairs(count) do
