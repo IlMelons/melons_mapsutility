@@ -13,56 +13,63 @@ return {
             [1] = {
                 title = "Rooms Floor 6",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 212.60, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 212.60, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
             [2] = {
                 title = "Rooms Floor 5",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 206.40, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 206.40, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
             [3] = {
                 title = "Rooms Floor 4",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 200.00, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 200.00, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
             [4] = {
                 title = "Rooms Floor 3",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 193.90, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 193.90, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
             [5] = {
                 title = "Rooms Floor 2",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 187.70, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 187.70, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
             [6] = {
                 title = "Rooms Floor 1",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 181.30, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 181.30, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
             [7] = {
                 title = "Lobby",
                 description = "",
-                teleport = vec4(-154.9951, -982.9111, 29.60, 160.00),
-                size = vec3(2.3, 2.3, 2.3),
+                zones = {
+                    [1] = {coords = vec4(-154.9951, -982.9111, 29.60, 160.00), size = vec3(2.3, 2.3, 2.3)},
+                },
                 locked = false,
                 item = "",
             },
