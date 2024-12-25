@@ -6,84 +6,15 @@ return {
 ---------------------------------------------------------------------------------
 ---@ELEVATORS ---------- Copy and Paste the map preset in config/elevators.lua --
 ---------------------------------------------------------------------------------
-    ["milehighclub1"] = {
-        label = "Mile High Club (Hotel)",
-        debug = false,
-        plans = {
-            [1] = {
-                title = "Rooms Floor 6",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 212.60, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-            [2] = {
-                title = "Rooms Floor 5",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 206.40, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-            [3] = {
-                title = "Rooms Floor 4",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 200.00, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-            [4] = {
-                title = "Rooms Floor 3",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 193.90, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-            [5] = {
-                title = "Rooms Floor 2",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 187.70, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-            [6] = {
-                title = "Rooms Floor 1",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 181.30, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-            [7] = {
-                title = "Lobby",
-                description = "",
-                zones = {
-                    [1] = {coords = vec4(-154.9951, -982.9111, 29.60, 160.00), size = vec3(2.3, 2.3, 2.3)},
-                },
-                locked = false,
-                item = "",
-            },
-        },
-    },
-    ["milehighclub2"] = {
+    ["milehighclub"] = {
         label = "Mile High Club",
-        debug = false,
+        debug = true,
         plans = {
             [1] = {
                 title = "Rooftop",
                 description = "Helipad",
                 zones = {
-                    [1] = {coords = vec4(-162.8081, -979.9983, 270.20, 339.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-162.8081, -979.9983, 270.20, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
@@ -92,7 +23,10 @@ return {
                 title = "Yusuf's Office",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 265.00, 339.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 265.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 265.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 265.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 265.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
@@ -101,81 +35,157 @@ return {
                 title = "Assmosphere",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 254.60, 339.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 254.60, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 254.60, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 254.60, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 254.60, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
             [4] = {
-                title = "SPA & Gym",
+                title = "Rooms Floor 6",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 175.00, 339.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 212.60, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 212.60, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 212.60, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 212.60, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
             [5] = {
-                title = "Rooftop Pool 2",
+                title = "Rooms Floor 5",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-124.3680, -974.9234, 115.60, 250.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 206.40, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 206.40, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 206.40, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 206.40, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
             [6] = {
-                title = "Rooftop Pool 1",
+                title = "Rooms Floor 4",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 53.30, 250.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 200.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 200.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 200.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 200.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
             [7] = {
-                title = "Cigar Lounge",
+                title = "Rooms Floor 3",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 46.00, 250.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 193.90, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 193.90, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 193.90, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 193.90, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
             [8] = {
-                title = "French Restaurant",
+                title = "Rooms Floor 2",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 39.50, 250.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 187.70, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 187.70, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 187.70, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 187.70, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
             [9] = {
-                title = "Lobby",
+                title = "Rooms Floor 1",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-155.9922, -985.5590, 29.60, 250.00), size = vec3(2.3, 2.3, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 181.30, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 181.30, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 181.30, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 181.30, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
-        },
-    },
-    ["milehighclub3"] = {
-        label = "Mile High Club (Garage)",
-        debug = false,
-        plans = {
-            [1] = {
-                title = "Lobby",
+            [10] = {
+                title = "SPA & Gym",
                 description = "",
                 zones = {
-                    [1] = {coords = vec4(-135.4880, -984.3469, 29.60, 160.00), size = vec3(2.0, 2.0, 2.3)},
+                    [1] = {coords = vec4(-150.3333, -984.4547, 175.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 175.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 175.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 175.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
                 },
                 locked = false,
                 item = "",
             },
-            [2] = {
+            [11] = {
+                title = "Rooftop Pool 2",
+                description = "",
+                zones = {
+                    [1] = {coords = vec4(-124.5557, -975.0193, 115.60, 250.00), size = vec3(2.1, 2.1, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+            [12] = {
+                title = "Rooftop Pool 1",
+                description = "",
+                zones = {
+                    [1] = {coords = vec4(-150.3333, -984.4547, 53.30, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 53.30, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 53.30, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 53.30, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+            [13] = {
+                title = "Cigar Lounge",
+                description = "",
+                zones = {
+                    [1] = {coords = vec4(-150.3333, -984.4547, 46.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 46.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 46.00, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 46.00, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+            [14] = {
+                title = "French Restaurant",
+                description = "",
+                zones = {
+                    [1] = {coords = vec4(-150.3333, -984.4547, 39.50, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 39.50, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 39.50, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 39.50, 340.00), size = vec3(2.3, 2.3, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+            [15] = {
+                title = "Lobby",
+                description = "",
+                zones = {
+                    [1] = {coords = vec4(-150.3333, -984.4547, 29.60, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [2] = {coords = vec4(-151.4568, -987.3717, 29.60, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [3] = {coords = vec4(-155.0241, -982.7457, 29.60, 160.00), size = vec3(2.1, 2.1, 2.3)},
+                    [4] = {coords = vec4(-156.1082, -985.6997, 29.60, 340.00), size = vec3(2.1, 2.1, 2.3)},
+                    [5] = {coords = vec4(-135.5909, -984.3957, 29.60, 160.00), size = vec3(2.0, 2.0, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+            [16] = {
                 title = "Garage Floor -1",
                 description = "",
                 zones = {
@@ -184,7 +194,7 @@ return {
                 locked = false,
                 item = "",
             },
-            [3] = {
+            [17] = {
                 title = "Garage Floor -2",
                 description = "",
                 zones = {
@@ -193,7 +203,7 @@ return {
                 locked = false,
                 item = "",
             },
-            [4] = {
+            [18] = {
                 title = "Garage Floor -3",
                 description = "",
                 zones = {
