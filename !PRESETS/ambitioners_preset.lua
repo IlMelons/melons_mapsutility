@@ -8,7 +8,7 @@ return {
 ---------------------------------------------------------------------------------
     ["milehighclub"] = {
         label = "Mile High Club",
-        debug = true,
+        debug = false,
         plans = {
             [1] = {
                 title = "Rooftop",
