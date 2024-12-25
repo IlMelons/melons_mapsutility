@@ -214,6 +214,32 @@ return {
             },
         },
     },
+    ["centrallsmedicalcenter"] = {
+        label = "Central LS Medical Center",
+        debug = true,
+        plans = {
+            [1] = {
+                title = "Floor 1",
+                description = "Meeting Room & Patients Rooms",
+                zones = {
+                    [1] = {coords = vec4(362.6882, -1407.4971, 38.60, 320.00), size = vec3(2.0, 2.0, 2.3)},
+                    [2] = {coords = vec4(355.5820, -1415.9916, 38.60, 140.00), size = vec3(2.0, 2.0, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+            [2] = {
+                title = "Ground Floor",
+                description = "Desk & Emergency Rooms",
+                zones = {
+                    [1] = {coords = vec4(362.6882, -1407.4971, 33.20, 320.00), size = vec3(2.0, 2.0, 2.3)},
+                    [2] = {coords = vec4(355.5820, -1415.9916, 33.20, 140.00), size = vec3(2.0, 2.0, 2.3)},
+                },
+                locked = false,
+                item = "",
+            },
+        },
+    },
 ---------------------------------------------------------------------------------
 ---@BLIPS ------------------ Copy and Paste the map preset in config/blips.lua --
 ---------------------------------------------------------------------------------
@@ -223,6 +249,24 @@ return {
         display = 2,
         sprite = 475,
         color = 70,
+        alpha = 255,
+        scale = 0.8,
+    },
+    ["centrallsmedicalcenter"] = {
+        label = "Central LS Medical Center",
+        coords = vector3(335.76, -1392.34, 32.60),
+        display = 2,
+        sprite = 61,
+        color = 25,
+        alpha = 255,
+        scale = 0.8,
+    },
+    ["cluckinbell"] = {
+        label = "Cluckin' Bell",
+        coords = vector3(-136.37, -256.01, 43.42),
+        display = 2,
+        sprite = 89,
+        color = 5,
         alpha = 255,
         scale = 0.8,
     },
