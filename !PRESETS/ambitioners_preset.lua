@@ -216,7 +216,7 @@ return {
     },
     ["centrallsmedicalcenter"] = {
         label = "Central LS Medical Center",
-        debug = true,
+        debug = false,
         plans = {
             [1] = {
                 title = "Floor 1",
