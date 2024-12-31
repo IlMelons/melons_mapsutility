@@ -1,38 +1,47 @@
 ---------------------------------------------------------------------------------
------------------------------- PRESETS TSTUDIO MAPS -----------------------------
+------------------------------ PRESETS PROMPT MAPS ------------------------------
 ---------------------------------------------------------------------------------
 ---@diagnostic disable
 return {
 ---------------------------------------------------------------------------------
 ---@ELEVATORS ---------- Copy and Paste the map preset in config/elevators.lua --
 ---------------------------------------------------------------------------------
-    ["tropicalheights"] = {
-        label = "Tropical Heights",
+    ["rockfordpolicedepartment"] = {
+        label = "Rockford Police Department",
         debug = false,
         plans = {
             [1] = {
-                title = "Floor 2",
-                description = "Bar Open Space",
+                title = "Rooftop",
+                description = "",
                 zones = {
-                    [1] = {coords = vec4(315.8117, -913.8285, 57.70, 134.00), size = vec3(2.3, 2.3, 2.5)},
+                    [1] = {coords = vec4(-579.8720, -130.9076, 52.30, 293.00), size = vec3(2.5, 2.5, 2.4)},
                 },
                 locked = false,
                 item = "",
             },
             [2] = {
-                title = "Floor 1",
-                description = "Bar & Pool",
+                title = "Floor 2",
+                description = "",
                 zones = {
-                    [1] = {coords = vec4(310.7336, -916.7942, 53.10, 70.00), size = vec3(2.3, 2.3, 2.5)},
+                    [1] = {coords = vec4(-573.1172, -135.9981, 48.20, 112.50), size = vec3(2.5, 2.5, 2.4)},
                 },
                 locked = false,
                 item = "",
             },
             [3] = {
-                title = "Ground Floor",
-                description = "Lobby",
+                title = "Floor 1",
+                description = "Meeting Room & Patients Rooms",
                 zones = {
-                    [1] = {coords = vec4(310.7352, -916.7856, 29.80, 70.00), size = vec3(2.3, 2.3, 2.5)},
+                    [1] = {coords = vec4(-572.9024, -135.9096, 43.10, 112.50), size = vec3(2.5, 2.5, 2.4)},
+                },
+                locked = false,
+                item = "",
+            },
+            [4] = {
+                title = "Ground Floor",
+                description = "",
+                zones = {
+                    [1] = {coords = vec4(-572.9712, -129.1511, 38.70, 292.50), size = vec3(2.5, 2.5, 2.4)},
                 },
                 locked = false,
                 item = "",
@@ -42,30 +51,12 @@ return {
 ---------------------------------------------------------------------------------
 ---@BLIPS ------------------ Copy and Paste the map preset in config/blips.lua --
 ---------------------------------------------------------------------------------
-    ["tropicalheights"] = {
-        label = "Tropical Heights",
-        coords = vec3(285.2625, -919.7712, 29.1527),
+    ["rockfordpolicedepartment"] = {
+        label = "Rockford Police Department",
+        coords = vec3(-557.58, -141.39, 38.42),
         display = 2,
-        sprite = 93,
-        color = 27,
-        alpha = 255,
-        scale = 0.8,
-    },
-    ["lsia"] = {
-        label = "LS International Airport",
-        coords = vec3(-1042.53, -2745.48, 21.36),
-        display = 2,
-        sprite = 307,
-        color = 3,
-        alpha = 255,
-        scale = 0.8,
-    },
-    ["alamoisland"] = {
-        label = "Alamo Island",
-        coords = vec3(228.17, 4006.36, 50.15),
-        display = 2,
-        sprite = 836,
-        color = 27,
+        sprite = 60,
+        color = 38,
         alpha = 255,
         scale = 0.8,
     },
