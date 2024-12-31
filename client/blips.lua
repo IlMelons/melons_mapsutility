@@ -9,18 +9,35 @@ function RemoveBlips()
 end
 
 function CreateBlips()
-    for _, v in pairs(Settings.Blips) do
-        local blip = AddBlipForCoord(v.coords.x, v.coords.y, v.coords.z)
-        SetBlipAlpha(blip, v.alpha)
-        SetBlipSprite(blip, v.sprite)
-        SetBlipColour(blip, v.color)
-        SetBlipAsShortRange(blip, true)
-        BeginTextCommandSetBlipName("STRING")
-        AddTextComponentString(v.label)
-        EndTextCommandSetBlipName(blip)
-        SetBlipDisplay(blip, v.display)
-        SetBlipScale(blip, v.scale)
-        Blips[#Blips + 1] = blip
+    for _, blipData in pairs(Settings.Blips) do
+        if blipData.coords then
+            local coord = blipData.coords
+            local blip = AddBlipForCoord(coord.x, coord.y, coord.z)
+            SetBlipAlpha(blip, blipData.alpha or 255)
+            SetBlipSprite(blip, blipData.sprite or 1)
+            SetBlipColour(blip, blipData.color or 0)
+            SetBlipAsShortRange(blip, true)
+            BeginTextCommandSetBlipName("STRING")
+            AddTextComponentString(blipData.label or "Blip")
+            EndTextCommandSetBlipName(blip)
+            SetBlipDisplay(blip, blipData.display or 2)
+            SetBlipScale(blip, blipData.scale or 1.0)
+            Blips[#Blips + 1] = blip
+        elseif blipData.points then
+            for _, point in ipairs(blipData.points) do
+                local blip = AddBlipForCoord(point.x, point.y, point.z)
+                SetBlipAlpha(blip, blipData.alpha or 255)
+                SetBlipSprite(blip, blipData.sprite or 1)
+                SetBlipColour(blip, blipData.color or 0)
+                SetBlipAsShortRange(blip, true)
+                BeginTextCommandSetBlipName("STRING")
+                AddTextComponentString(blipData.label or "Blip")
+                EndTextCommandSetBlipName(blip)
+                SetBlipDisplay(blip, blipData.display or 2)
+                SetBlipScale(blip, blipData.scale or 1.0)
+                Blips[#Blips + 1] = blip
+            end
+        end
     end
 end
 
