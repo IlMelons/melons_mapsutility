@@ -67,7 +67,7 @@ return {
 ---------------------------------------------------------------------------------
     ["aldorehospital"] = {
         label = "Aldore Hospital",
-        coords = vector3(-520.4157, -965.5557, 23.5280),
+        coords = vec3(-520.4157, -965.5557, 23.5280),
         display = 2,
         sprite = 61,
         color = 25,
@@ -76,7 +76,7 @@ return {
     },
     ["coffeeshop"] = {
         label = "Coffee Shop",
-        coords = vector3(182.2147, -228.4833, 54.1307),
+        coords = vec3(182.2147, -228.4833, 54.1307),
         display = 2,
         sprite = 93,
         color = 25,
@@ -85,7 +85,7 @@ return {
     },
     ["bunker"] = {
         label = "Bunker",
-        coords = vector3(-1510.9072, 1993.3486, 66.9607),
+        coords = vec3(-1510.9072, 1993.3486, 66.9607),
         display = 2,
         sprite = 310,
         color = 25,
@@ -94,7 +94,7 @@ return {
     },
     ["koispa"] = {
         label = "Koi Spa",
-        coords = vector3(-1042.1746, -1471.9698, 5.0603),
+        coords = vec3(-1042.1746, -1471.9698, 5.0603),
         display = 2,
         sprite = 197,
         color = 25,
@@ -103,7 +103,7 @@ return {
     },
     ["musclegymnasium"] = {
         label = "Muscle Gymnasium",
-        coords = vector3(114.7588, 335.3813, 112.1266),
+        coords = vec3(114.7588, 335.3813, 112.1266),
         display = 2,
         sprite = 311,
         color = 25,
@@ -112,7 +112,7 @@ return {
     },
     ["burtonlsc"] = {
         label = "Burton LSC",
-        coords = vector3(-363.6193, -121.5192, 38.6962),
+        coords = vec3(-363.6193, -121.5192, 38.6962),
         display = 2,
         sprite = 311,
         color = 25,
