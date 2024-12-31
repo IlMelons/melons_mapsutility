@@ -245,7 +245,7 @@ return {
 ---------------------------------------------------------------------------------
     ["milehighclub"] = {
         label = "Mile High Club",
-        coords = vector3(-107.5170, -959.7780, 29.2805),
+        coords = vec3(-107.5170, -959.7780, 29.2805),
         display = 2,
         sprite = 475,
         color = 70,
@@ -254,7 +254,7 @@ return {
     },
     ["centrallsmedicalcenter"] = {
         label = "Central LS Medical Center",
-        coords = vector3(335.76, -1392.34, 32.60),
+        coords = vec3(335.76, -1392.34, 32.60),
         display = 2,
         sprite = 61,
         color = 25,
@@ -263,7 +263,7 @@ return {
     },
     ["cluckinbell"] = {
         label = "Cluckin' Bell",
-        coords = vector3(-136.37, -256.01, 43.42),
+        coords = vec3(-136.37, -256.01, 43.42),
         display = 2,
         sprite = 89,
         color = 5,
