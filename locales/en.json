@@ -6,7 +6,7 @@
     },
     "notify": {
         "title": "Melons Maps Utility",
-        "need_item": "You need an item to unlock this plan",
+        "access_denied": "Access Denied",
         "reached_plan": "You have reached the selected plan"
     }
 }

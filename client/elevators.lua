@@ -11,8 +11,8 @@ function ShowElevatorMenu(elevatorPlans, elevatorLabel, planIndex)
             icon = elevatorPlans[i].locked and "fas fa-lock" or "fas fa-lock-open",
             iconColor = elevatorPlans[i].locked and "#FF0000" or "#008000",
             onSelect = function()
-                local hasItem = lib.callback.await("melons_mapsutility:server:HasItem", false, elevatorPlans[i].item)
-                if elevatorPlans[i].locked and not hasItem then return Notify(locale("notify.title"), locale("notify.need_item"), "error") end
+                local hasAccess = lib.callback.await("melons_mapsutility:server:HasAccess", false, elevatorPlans[i])
+                if elevatorPlans[i].locked and not hasAccess then return Notify(locale("notify.title"), locale("notify.access_denied"), "error") end
                 DoScreenFadeOut(1000)
                 Wait(2000)
 
