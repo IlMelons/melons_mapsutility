@@ -1,0 +1,12 @@
+{
+    "menu": {
+        "access": "Acceso",
+        "locked": "Bloqueado 🔴",
+        "unlocked": "Desbloqueado 🟢"
+    },
+    "notify": {
+        "title": "Melons Maps Utility",
+        "access_denied": "Acceso Denegado",
+        "reached_plan": "Has alcanzado el plan seleccionado"
+    }
+}
