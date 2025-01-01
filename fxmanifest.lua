@@ -5,7 +5,7 @@ lua54 "yes"
 name "melons_mapsutility"
 description "An optimized resource for Blips and Elevators management"
 author "IlMelons"
-version "1.1.0"
+version "1.2.0"
 
 ox_lib "locale"
 
@@ -19,7 +19,7 @@ client_scripts {
 }
 
 server_scripts {
-    "bridge/server/*.lua",
+    "bridge/server/**/*.lua",
     "server/*.lua",
 }
 
