@@ -7,6 +7,6 @@
     "notify": {
         "title": "Melons Maps Utility",
         "access_denied": "Access Denied",
-        "reached_plan": "You have reached the selected plan"
+        "reached_plan": "You have reached the selected floor"
     }
 }

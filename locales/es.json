@@ -7,6 +7,6 @@
     "notify": {
         "title": "Melons Maps Utility",
         "access_denied": "Acceso Denegado",
-        "reached_plan": "Has alcanzado el plan seleccionado"
+        "reached_plan": "Has alcanzado la planta seleccionada"
     }
 }
