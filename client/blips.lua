@@ -1,5 +1,5 @@
 Blips = {}
-local Settings = lib.load("config.blips")
+local ConfigBlips = lib.load("config.blips")
 
 function RemoveBlips()
     for _, blip in ipairs(Blips) do
@@ -9,7 +9,7 @@ function RemoveBlips()
 end
 
 function CreateBlips()
-    for _, blipData in pairs(Settings.Blips) do
+    for _, blipData in pairs(ConfigBlips.Blips) do
         if blipData.coords then
             local coord = blipData.coords
             local blip = AddBlipForCoord(coord.x, coord.y, coord.z)
