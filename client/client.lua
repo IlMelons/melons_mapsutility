@@ -7,13 +7,17 @@ function Notify(title, msg, type)
     })
 end
 
-RegisterNetEvent("melons_mapsutility:client:Setup", function()
+function InitMapsUtility()
     SetupBlips()
     SetupElevators()
+end
+
+AddEventHandler("onClientResourceStart", function(resourceName)
+    if resourceName ~= cache.resource then return end
+    InitMapsUtility()
 end)
 
-AddEventHandler("onResourceStart", function(resource)
-    if resource ~= cache.resource then return end
-    SetupBlips()
-    SetupElevators()
+AddEventHandler("onResourceStart", function(resourceName)
+    if resourceName ~= cache.resource then return end
+    InitMapsUtility()
 end)
