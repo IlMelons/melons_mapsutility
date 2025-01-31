@@ -7,7 +7,7 @@
 
 local ExpectedName = GetResourceMetadata(GetCurrentResourceName(), "name")
 
-lib.versionCheck(("IlMelons/"):format(ExpectedName))
+lib.versionCheck(("IlMelons/%s"):format(ExpectedName))
 
 AddEventHandler("onResourceStart", function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
