@@ -5,7 +5,7 @@ lua54 "yes"
 name "melons_mapsutility"
 description "An optimized resource for Blips and Elevators management"
 author "IlMelons"
-version "1.3.1"
+version "1.4.0"
 repository "https://github.com/IlMelons/melons_mapsutility"
 
 ox_lib "locale"
