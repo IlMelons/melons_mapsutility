@@ -12,9 +12,10 @@ An optimized resource for Blips and Elevators management using ox_lib and ox_inv
 2. Extract the .zip file and rename the folder `melons_mapsutility`
 3. To setup the script, open and edit `blips.lua` or `elevators.lua` in config folder
 
-## Discord & Donations
-- Join my [discord](https://discord.gg/RxpNTx2YKZ) for support and more scripts
-- Donate in my [ko-fi](https://ko-fi.com/ilmelons) if you want to support my projects
+## Links
+- [Discord](https://discord.gg/RxpNTx2YKZ)
+- [Docs](https://melons-development.gitbook.io/melons-development/resources/melons-maps-utility)
+- [Ko-fi](https://ko-fi.com/ilmelons)
 
 ## Preview
 COMING SOON...
