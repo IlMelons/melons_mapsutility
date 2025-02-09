@@ -8,6 +8,7 @@ function Notify(title, msg, type)
 end
 
 function InitMapsUtility()
+    SetupSeats()
     SetupBlips()
     SetupElevators()
 end
