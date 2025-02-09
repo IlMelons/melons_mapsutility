@@ -1,5 +1,4 @@
 return {
-    TextUI = "[E] Elevator",
     Elevators = {
         ["fib"] = {
             label = "FIB Headquarter",
