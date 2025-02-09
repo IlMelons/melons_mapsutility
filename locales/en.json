@@ -8,5 +8,8 @@
         "title": "Melons Maps Utility",
         "access_denied": "Access Denied",
         "reached_plan": "You have reached the selected floor"
+    },
+    "textui": {
+        "elevator": "[E] Elevator"
     }
 }
