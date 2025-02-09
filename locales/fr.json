@@ -7,6 +7,14 @@
     "notify": {
         "title": "Melons Maps Utility",
         "access_denied": "Accès Refusé",
-        "reached_plan": "Vous avez atteint le plan sélectionné"
+        "reached_plan": "Vous avez atteint le plan sélectionné",
+        "seat_occupied": "Le siège est déjà occupé"
+    },
+    "textui": {
+        "elevator": "[E] Ascenseur",
+        "sit": "[E] Lève-toi"
+    },
+    "target": {
+        "sit": "Assieds-toi"
     }
 }

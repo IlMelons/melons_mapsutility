@@ -7,9 +7,14 @@
     "notify": {
         "title": "Melons Maps Utility",
         "access_denied": "Access Denied",
-        "reached_plan": "You have reached the selected floor"
+        "reached_plan": "You have reached the selected floor",
+        "seat_occupied": "The seat is already occupied"
     },
     "textui": {
-        "elevator": "[E] Elevator"
+        "elevator": "[E] Elevator",
+        "sit": "[E] Get Up"
+    },
+    "target": {
+        "sit": "Sit"
     }
 }
