@@ -57,7 +57,7 @@ function CreateElevator(elevatorName, elevatorData)
                 size = zoneData.size,
                 rotation = zoneData.coords.w,
                 onEnter = function()
-                    lib.showTextUI(ConfigElevators.TextUI, {position = "left-center", icon = "fa-solid fa-building"})
+                    lib.showTextUI(locale("textui.elevator"), {position = "left-center", icon = "fa-solid fa-building"})
                 end,
                 onExit = function()
                     lib.hideTextUI()
