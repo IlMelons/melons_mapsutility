@@ -4,11 +4,32 @@
 ---@diagnostic disable
 
 ---@description TROPICAL HEIGHTS
+[`johanni_skybar_asset_barstool01`] = {
+	maxseats = 1,
+	anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+	seats = {
+		[1] = {offset = vec4(-0.1, 0.0, 0.9, 270.0)},
+	},
+},
+[`johanni_skybar_asset_beach_lounger`] = {
+	maxseats = 1,
+	anim = {scenario = "PROP_HUMAN_SEAT_SUNLOUNGER"},
+	seats = {
+		[1] = {offset = vec4(0.3, 0.0, 0.4, 90.0)},
+	},
+},
 [`johanni_skybar_asset_chair01`] = {
     maxseats = 1,
     anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
     seats = {
         [1] = {offset = vec4(0.0, 0.0, 0.5, 90.0)},
+    },
+},
+[`johanni_skybar_asset_ext_beach_lounger`] = {
+    maxseats = 1,
+    anim = {scenario = "PROP_HUMAN_SEAT_SUNLOUNGER"},
+    seats = {
+        [1] = {offset = vec4(0.3, 0.0, 0.4, 90.0)},
     },
 },
 [`johanni_skybar_asset_ext_sofa01`] = {
