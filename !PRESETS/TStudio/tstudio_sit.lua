@@ -3,6 +3,15 @@
 ---------------------------------------------------------------------------------
 ---@diagnostic disable
 
+---@description KEBAB KING DINER
+[-1281587804] = {
+	maxseats = 1,
+	anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+	seats = {
+		[1] = {offset = vec4(0.0, 0.0, 0.5, 180.0)},
+	},
+},
+
 ---@description LEGION SQUARE
 [`tstudio_legionsquare_asset_bench01`] = {
 	maxseats = 3,
