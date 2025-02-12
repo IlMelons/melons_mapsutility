@@ -43,6 +43,13 @@ return {
 				[1] = {offset = vec4(0.0, -0.05, 0.0, 180.0)},
 			},
 		},
+		[`prop_toilet_01`] = {
+			maxseats = 1,
+			anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+			seats = {
+				[1] = {offset = vec4(0.0, 0.0, 0.5, 180.0)},
+			},
+		},
 		[`prop_yaught_sofa_01`] = {
 			maxseats = 2,
 			anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
