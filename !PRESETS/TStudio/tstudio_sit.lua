@@ -3,6 +3,31 @@
 ---------------------------------------------------------------------------------
 ---@diagnostic disable
 
+---@description LEGION SQUARE
+[`tstudio_legionsquare_asset_bench01`] = {
+	maxseats = 3,
+	anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+	seats = {
+		[1] = {offset = vec4(-0.1, 0.6, 0.65, 90.0)},
+		[2] = {offset = vec4(-0.1, 1.7, 0.65, 90.0)},
+		[3] = {offset = vec4(-0.1, -0.5, 0.65, 90.0)},
+	},
+},
+[`tstudio_legionsquare_asset_chair01`] = {
+	maxseats = 1,
+	anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+	seats = {
+		[1] = {offset = vec4(0.0, 0.0, 0.5, 180.0)},
+	},
+},
+[`tstudio_legionsquare_asset_chair02`] = {
+	maxseats = 1,
+	anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+	seats = {
+		[1] = {offset = vec4(0.0, 0.0, 0.5, 180.0)},
+	},
+},
+
 ---@description TROPICAL HEIGHTS
 [`johanni_skybar_asset_barstool01`] = {
 	maxseats = 1,
