@@ -1,6 +1,9 @@
 local ConfigSit = lib.load("config.sit")
 local IsSitting = false
+local ClonedEntity = false
+local OldEntity = 0
 
+---@description SETUP SECTION INITIALIZATION
 function SetupSeats()
     local models = {}
     for model in pairs(ConfigSit.Models) do
@@ -9,6 +12,7 @@ function SetupSeats()
     target.AddModels(models)
 end
 
+---@description FUNCTION FOR CONVERT COORDS BASED ON ENTITY HEADING
 local function RotateOffset(offset, heading)
     local rad = math.rad(heading)
     local cosH = math.cos(rad)
@@ -20,6 +24,7 @@ local function RotateOffset(offset, heading)
     return vec3(newX, newY, offset.z)
 end
 
+---@description FUNCTION FOR CHECK IF SEAT IS OCCUPIED
 local function IsSeatOccupied(entity)
     local model = GetEntityModel(entity)
     local configModel = ConfigSit.Models[model]
@@ -39,22 +44,74 @@ local function IsSeatOccupied(entity)
     end
 end
 
-local function NetworkChair(entity, action)
-    if not entity then return false end
-
-    local isNetwork = NetworkGetEntityIsNetworked(entity)
-    local isLocal = NetworkGetEntityIsLocal(entity)
-
-    if action == "register" and isLocal then
-        NetworkRegisterEntityAsNetworked(entity)
-        return true
+---@description FALLBACK FUNCTION FOR CLONE ENTITY (NORMAL NETWORK REGISTRATION FAILED)
+local function CloneAndNetworkEntity(entity)
+    if not DoesEntityExist(entity) then
+        return nil, nil
     end
-    if action == "unregister" and isNetwork then
-        NetworkUnregisterNetworkedEntity(entity)
-        return true
+
+    local model = GetEntityModel(entity)
+    RequestModel(model)
+    while not HasModelLoaded(model) do
+        Wait(10)
+    end
+
+    local entityCoords = GetEntityCoords(entity)
+    local entityHeading = GetEntityHeading(entity)
+    local clonedEntity = CreateObject(model, entityCoords.x, entityCoords.y, entityCoords.z, true, true, false)
+    if not DoesEntityExist(clonedEntity) then
+        return nil, nil
+    end
+
+    SetEntityHeading(clonedEntity, entityHeading)
+    FreezeEntityPosition(clonedEntity, true)
+
+    NetworkRegisterEntityAsNetworked(clonedEntity)
+
+    SetEntityVisible(entity, false, false)
+    OldEntity = entity
+
+    ClonedEntity = true
+    return clonedEntity
+end
+
+---@description FUNCTION (MAIN) FOR NETWORK REGISTER/UNREGISTER
+local function NetworkChair(entity, action)
+    if action == "register" then
+        if not entity then return false, nil end
+
+        local isLocal = NetworkGetEntityIsLocal(entity)
+        if isLocal then
+            NetworkRegisterEntityAsNetworked(entity)
+        end
+
+        Wait(100)
+
+        local isNetworked = NetworkGetEntityIsNetworked(entity)
+        if isNetworked then
+            return true, entity
+        else
+            local clonedEntity = CloneAndNetworkEntity(entity)
+            if clonedEntity then
+                return true, clonedEntity
+            else
+                return false, nil
+            end
+        end
+    end
+
+    if action == "unregister" then
+        if ClonedEntity then
+            SetEntityAsNoLongerNeeded(entity)
+            SetEntityVisible(OldEntity, true, false)
+            NetworkUnregisterNetworkedEntity(entity)
+            DeleteEntity(entity)
+            ClonedEntity = false
+        end
     end
 end
 
+---@description FUNCTION FOR ANIMATIONS AND CANCEL THEM
 local function PlaySit(entity, seatID)
     IsSitting = entity
     local entityNetID = NetworkGetNetworkIdFromEntity(entity)
@@ -98,6 +155,7 @@ local function PlaySit(entity, seatID)
     getup:disable(false)
 end
 
+---@description EVENT TRIGGERED BY TARGET (bridge/client/target/*.lua)
 RegisterNetEvent("melons_mapsutility:client:Sit", function(data)
     if not data.entity then return end
     if IsSitting and IsSitting == data.entity then return end
@@ -106,14 +164,15 @@ RegisterNetEvent("melons_mapsutility:client:Sit", function(data)
     local configModel = ConfigSit.Models[model]
     if not configModel then return end
 
-    ---@description NETWORK SECTION FOR AVOID ERRORS
-    local networkSuccess = NetworkChair(data.entity, "register")
-    if networkSuccess then
-        local seatOccupied, seatID = IsSeatOccupied(data.entity)
-        if seatOccupied then return Notify(locale("notify.title"), locale("notify.seat_occupied"), "error") end
+    ---@description NETWORK SECTION FOR AVOID SYNC ERRORS
+    local networkSuccess, entity = NetworkChair(data.entity, "register")
+    if not networkSuccess then return end
 
-        PlaySit(data.entity, seatID)
-    else
-        return lib.print.debug("Unable to network entity")
+    ---@description OCCUPIED SECTION FOR AVOID PLAYERS BUGS
+    local seatOccupied, seatID = IsSeatOccupied(entity)
+    if seatOccupied then
+        return Notify(locale("notify.title"), locale("notify.seat_occupied"), "error")
     end
+
+    PlaySit(entity, seatID)
 end)
