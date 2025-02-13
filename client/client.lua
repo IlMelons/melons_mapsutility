@@ -11,6 +11,7 @@ function InitMapsUtility()
     SetupSeats()
     SetupBlips()
     SetupElevators()
+    SetupIPL()
 end
 
 AddEventHandler("onClientResourceStart", function(resourceName)
