@@ -361,6 +361,15 @@
     alpha = 255,
     scale = 0.8,
 },
+["sandyshorescityhall"] = {
+    label = "Sandy Shores City Hall",
+    coords = vec3(1746.63, 3799.39, 35.46),
+    display = 2,
+    sprite = 419,
+    color = 0,
+    alpha = 255,
+    scale = 0.8,
+},
 ["sandyshoressheriffstation"] = {
     label = "Sandy Shores Sheriff Station",
     coords = vec3(1831.94, 3661.97, 33.91),
