@@ -15,11 +15,7 @@ function InitMapsUtility()
 end
 
 AddEventHandler("onClientResourceStart", function(resourceName)
-    if resourceName ~= cache.resource then return end
-    InitMapsUtility()
-end)
-
-AddEventHandler("onResourceStart", function(resourceName)
-    if resourceName ~= cache.resource then return end
+    local scriptName = cache.resource or GetCurrentResourceName()
+    if resourceName ~= scriptName then return end
     InitMapsUtility()
 end)
