@@ -3,7 +3,37 @@
 ---------------------------------------------------------------------------------
 ---@diagnostic disable
 
-["tropicalheights"] = {
+["medical-center-vespucci"] = {
+    label = "Medical Center Vespucci",
+    debug = false,
+    plans = {
+        [1] = {
+            title = "Ground Floor",
+            description = "",
+            zones = {
+                [1] = {coords = vec4(-801.4337, -1245.7173, 7.00, 50.00), size = vec3(2.3, 2.3, 2.5)},
+                [2] = {coords = vec4(-799.2352, -1243.0962, 7.00, 50.00), size = vec3(2.3, 2.3, 2.5)},
+                [3] = {coords = vec4(-838.7696, -1251.4101, 7.00, 320.00), size = vec3(2.3, 2.3, 2.5)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [2] = {
+            title = "Floor 2",
+            description = "",
+            zones = {
+                [1] = {coords = vec4(-801.2869, -1245.4534, 11.50, 50.00), size = vec3(2.3, 2.3, 2.5)},
+                [2] = {coords = vec4(-799.2352, -1243.0962, 11.50, 50.00), size = vec3(2.3, 2.3, 2.5)},
+                [3] = {coords = vec4(-836.6617, -1254.2118, 13.40, 320.00), size = vec3(2.3, 2.3, 2.5)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+    },
+},
+["tropical-heights"] = {
     label = "Tropical Heights",
     debug = false,
     plans = {
