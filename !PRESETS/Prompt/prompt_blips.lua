@@ -3,7 +3,7 @@
 ---------------------------------------------------------------------------------
 ---@diagnostic disable
 
-["abandonedtheatre"] = {
+["abandoned-theatre"] = {
     label = "Abandoned Theatre",
     coords = vec3(460.65, -1455.20, 29.29),
     display = 2,
@@ -12,7 +12,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["alamoseabridge"] = {
+["alamo-sea-bridge"] = {
     label = "Alamo Sea Bridge",
     points = {
         vec3(1859.94, 3950.71, 33.06),
@@ -24,7 +24,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["blainecountycityhall"] = {
+["blaine-county-city-hall"] = {
     label = "Blaine County City Hall",
     coords = vec3(343.50, 6626.28, 28.62),
     display = 2,
@@ -33,7 +33,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["boathouse"] = {
+["boat-house"] = {
     label = "Boat House",
     coords = vec3(1531.35, 3776.84, 34.51),
     display = 2,
@@ -42,7 +42,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["boatsrental"] = {
+["boats-rental"] = {
     label = "Boats Rental",
     coords = vec3(1411.73, 3804.32, 32.42),
     display = 2,
@@ -51,7 +51,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["bolingbrokeprison"] = {
+["bolingbroke-prison"] = {
     label = "Bolingbroke Prison",
     coords = vec3(1849.44, 2608.71, 45.59),
     display = 2,
@@ -60,7 +60,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["building1"] = {
+["building-1"] = {
     label = "Opened City - Building 1",
     coords = vector3(57.79, -1002.71, 29.40),
     display = 2,
@@ -69,7 +69,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["building2"] = {
+["building-2"] = {
     label = "Opened City - Building 2",
     coords = vector3(188.16, -1078.71, 29.30),
     display = 2,
@@ -78,7 +78,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["busstation"] = {
+["bus-station"] = {
     label = "Bus Station",
     coords = vec3(434.78, -645.61, 28.73),
     display = 2,
@@ -87,7 +87,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["dotrepairs"] = {
+["dot-repairs"] = {
     label = "DOT Repairs",
     points = {
         vec3(967.58, -1022.57, 40.85),
@@ -100,7 +100,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["dynasty8"] = {
+["dynasty-8"] = {
     label = "Dynasty 8",
     coords = vec3(-838.02, -332.33, 38.68),
     display = 2,
@@ -109,7 +109,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["expensivegarage"] = {                         --- [SHELL] Showcase Only
+["expensive-garage"] = {                         --- [SHELL] Showcase Only
     label = "Expensive Garage",
     coords = vec3(-776.96, -371.08, 45.77),
     display = 2,
@@ -141,7 +141,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["ganghideoutdavis"] = {                        --- [SECRET LOCATION] Showcase Only
+["gang-hideout-davis"] = {                        --- [SECRET LOCATION] Showcase Only
     label = "Gang Hideout | Davis",
     coords = vec3(-199.29, -1605.36, 34.59),
     display = 2,
@@ -150,7 +150,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["ganghideoutelburro"] = {                       --- [SECRET LOCATION] Showcase Only
+["gang-hideout-el-burro"] = {                       --- [SECRET LOCATION] Showcase Only
     label = "Gang Hideout | El Burro",
     coords = vec3(1436.44, -1494.94, 63.22),
     display = 2,
@@ -159,7 +159,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["ganghideoutgroove"] = {                        --- [SECRET LOCATION] Showcase Only
+["gang-hideout-groove"] = {                        --- [SECRET LOCATION] Showcase Only
     label = "Gang Hideout | Groove",
     coords = vec3(111.03, -1955.73, 20.75),
     display = 2,
@@ -168,7 +168,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["japaneserestaurant"] = {
+["japanese-restaurant"] = {
     label = "Japanese Restaurant",
     coords = vec3(-169.57, 279.43, 93.62),
     display = 2,
@@ -177,7 +177,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["mosleydealership"] = {
+["mosley-dealership"] = {
     label = "Mosley Dealership",
     coords = vec3(-42.01, -1676.44, 29.42),
     display = 2,
@@ -186,7 +186,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["motorcicleparadise"] = {
+["motorcicle-paradise"] = {
     label = "Motorcicle Paradise",
     coords = vec3(286.64, -1146.88, 29.29),
     display = 2,
@@ -204,7 +204,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["paletobayfiredepartment"] = {
+["paleto-bay-fire-department"] = {
     label = "Paleto Bay Fire Department",
     coords = vec3(-382.08, 6121.04, 31.48),
     display = 2,
@@ -213,7 +213,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["paletohuntingstore"] = {
+["paleto-hunting-store"] = {
     label = "Paleto Hunting Store",
     coords = vec3(-679.77, 5833.80, 17.33),
     display = 2,
@@ -222,7 +222,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["pillboxfiredepartment"] = {
+["pillbox-fire-department"] = {
     label = "Pillbox Fire Department",
     coords = vec3(319.32, -686.13, 29.48),
     display = 2,
@@ -231,7 +231,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["redsautoparts"] = {
+["reds-auto-parts"] = {
     label = "Red's Auto Parts",
     coords = vec3(-511.29, -1736.95, 19.22),
     display = 2,
@@ -240,7 +240,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["repairshop"] = {
+["repair-shop"] = {
     label = "Repair Shop",
     points = {
         vec3(535.66, -180.45, 54.35),
@@ -252,7 +252,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["rockforddealership"] = {
+["rockford-dealership"] = {
     label = "Rockford Dealership",
     coords = vec3(-324.84, -255.80, 34.39),
     display = 2,
@@ -261,7 +261,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["rockfordfiredepartment"] = {
+["rockford-fire-department"] = {
     label = "Rockford Fire Department",
     coords = vec3(-662.12, -73.92, 38.55),
     display = 2,
@@ -270,7 +270,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["rockfordpolicedepartment"] = {
+["rockford-police-department"] = {
     label = "Rockford Police Department",
     coords = vec3(-557.58, -141.39, 38.42),
     display = 2,
@@ -279,7 +279,16 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandyfiredepartment"] = {
+["sandy-car-dealership"] = {
+    label = "Sandy Car Dealership",
+    coords = vec3(1901.42, 3731.25, 32.54),
+    display = 2,
+    sprite = 326,
+    color = 0,
+    alpha = 255,
+    scale = 0.8,
+},
+["sandy-fire-department"] = {
     label = "Sandy Fire Department",
     coords = vec3(1685.33, 3574.05, 35.59),
     display = 2,
@@ -288,7 +297,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandygasstation"] = {
+["sandy-gas-station"] = {
     label = "Sandy Gas Station",
     coords = vec3(2001.99, 3778.64, 32.18),
     display = 2,
@@ -297,7 +306,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandyhospital"] = {
+["sandy-hospital"] = {
     label = "Sandy Hospital",
     coords = vec3(1751.16, 3624.17, 34.98),
     display = 2,
@@ -306,7 +315,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandyhousespart1"] = {
+["sandy-houses-part-1"] = {
     label = "House",
     points = {
         vec3(1357.14, 3590.68, 34.86),
@@ -334,7 +343,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandylostmc"] = {                             --- [SECRET LOCATION] Showcase Only
+["sandy-lost-mc"] = {                             --- [SECRET LOCATION] Showcase Only
     label = "Sandy Lost MC",
     coords = vec3(105.50, 3690.17, 39.75),
     display = 2,
@@ -343,7 +352,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandymarinalifeguard"] = {
+["sandy-marina-lifeguard"] = {
     label = "Sandy Marina Lifeguard",
     coords = vec3(1694.82, 3907.34, 34.64),
     display = 2,
@@ -352,7 +361,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandyshoresairport"] = {
+["sandy-shores-airport"] = {
     label = "Sandy Shores Airport",
     coords = vec3(1693.62, 3301.01, 41.58),
     display = 2,
@@ -361,7 +370,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandyshorescityhall"] = {
+["sandy-shores-cityhall"] = {
     label = "Sandy Shores City Hall",
     coords = vec3(1746.63, 3799.39, 35.46),
     display = 2,
@@ -370,7 +379,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandyshoressheriffstation"] = {
+["sandy-shores-sheriff-station"] = {
     label = "Sandy Shores Sheriff Station",
     coords = vec3(1831.94, 3661.97, 33.91),
     display = 2,
@@ -379,7 +388,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["sandytrainstation"] = {
+["sandy-train-station"] = {
     label = "Sandy Train Station",
     coords = vec3(1912.21, 3574.08, 38.82),
     display = 2,
@@ -388,7 +397,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["secretundergroudmarijuana"] = {               --- [SECRET LOCATION] Showcase Only
+["secret-undergroud-marijuana"] = {               --- [SECRET LOCATION] Showcase Only
     label = "Secret Underground Marijuana",
     coords = vec3(-184.65, -1701.72, 32.75),
     display = 2,
@@ -397,7 +406,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["vespuccicityhall"] = {
+["vespucci-city-hall"] = {
     label = "Vespucci City Hall",
     coords = vec3(-1282.79, -564.26, 31.71),
     display = 2,
@@ -406,7 +415,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["vespuccifiredepartment"] = {
+["vespucci-fire-department"] = {
     label = "Vespucci Fire Department",
     coords = vec3(-1055.37, -1396.30, 5.06),
     display = 2,
@@ -415,7 +424,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["watchstore"] = {
+["watch-store"] = {
     label = "Watch Store",
     coords = vector3(-648.88, -276.97, 35.68),
     display = 2,
@@ -424,7 +433,7 @@
     alpha = 255,
     scale = 0.8,
 },
-["wiwangpcclub"] = {
+["wiwang-pc-club"] = {
     label = "Wiwang PC Club",
     coords = vec3(-829.28, -689.90, 28.10),
     display = 2,
