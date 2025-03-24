@@ -36,6 +36,13 @@ return {
 				[3] = {offset = vec4(0.8, -0.05, 0.3, 180.0)},
 			},
 		},
+		[`prop_chair_06`] = {
+			maxseats = 1,
+			anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
+			seats = {
+				[1] = {offset = vec4(0.0, 0.0, 0.5, 180.0)},
+			},
+		},
 		[`prop_table_01_chr_a`] = {
 			maxseats = 1,
 			anim = {scenario = "PROP_HUMAN_SEAT_BENCH"},
