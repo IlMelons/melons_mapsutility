@@ -3,6 +3,78 @@
 ---------------------------------------------------------------------------------
 ---@diagnostic disable
 
+["al-dente-restaurant-1"] = {
+    label = "Al Dente Restaurant",
+    debug = false,
+    plans = {
+        [1] = {
+            title = "Rooftop",
+            description = "Open Space Bar & Restaurant",
+            zones = {
+                [1] = {coords = vec4(-1191.7126, -1400.3001, 18.30, 215.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [2] = {
+            title = "Ground Floor",
+            description = "Restaurant",
+            zones = {
+                [1] = {coords = vec4(-1188.5867, -1396.0899, 5.10, 215.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+    },
+},
+["al-dente-restaurant-2"] = {
+    label = "Al Dente Restaurant",
+    debug = false,
+    plans = {
+        [1] = {
+            title = "Floor 2",
+            description = "Apartment",
+            zones = {
+                [1] = {coords = vec4(-1193.7130, -1398.0940, 14.60, 215.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [2] = {
+            title = "Floor 1",
+            description = "Office Space",
+            zones = {
+                [1] = {coords = vec4(-1193.7130, -1398.0940, 10.20, 215.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [3] = {
+            title = "Ground Floor",
+            description = "Restaurant",
+            zones = {
+                [1] = {coords = vec4(-1199.4361, -1389.7298, 4.90, 295.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [4] = {
+            title = "Floor -1",
+            description = "Basement",
+            zones = {
+                [1] = {coords = vec4(-1199.0068, -1391.2418, -100.80, 305.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+    }
+},
 ["medical-center-vespucci"] = {
     label = "Medical Center Vespucci",
     debug = false,
