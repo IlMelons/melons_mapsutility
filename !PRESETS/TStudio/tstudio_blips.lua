@@ -75,6 +75,15 @@
     alpha = 255,
     scale = 0.8,
 },
+["jurassic-jackpot"] = {
+    label = "Jurassic Jackpot",
+    coords = vec3(-271.22, -898.89, 32.20),
+    display = 2,
+    sprite = 680,
+    color = 25,
+    alpha = 255,
+    scale = 0.8,
+},
 ["kebab-king-diner"] = {
     label = "Kebab King Diner",
     coords = vec3(247.86, -826.85, 29.85),
