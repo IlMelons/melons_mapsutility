@@ -138,6 +138,15 @@
     alpha = 255,
     scale = 0.8,
 },
+["opium-nights-hotel"] = {
+    label = "Opium Nights Hotel",
+    coords = vec3(-753.5695, -2292.5603, 13.00),
+    display = 2,
+    sprite = 475,
+    color = 1,
+    alpha = 255,
+    scale = 0.8,
+},
 ["tropical-heights"] = {
     label = "Tropical Heights",
     coords = vec3(285.26, -919.77, 29.15),
