@@ -75,6 +75,42 @@
         },
     }
 },
+["jurassic-jackpot"] = {
+    label = "Jurassic Jackpot",
+    debug = false,
+    plans = {
+        [1] = {
+            title = "Helipad",
+            description = "",
+            zones = {
+                [1] = {coords = vec4(-271.8148, -918.5692, 53.10, 340.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [2] = {
+            title = "Floor 1",
+            description = "Boss Room",
+            zones = {
+                [1] = {coords = vec4(-269.5121, -918.5275, 46.60, 340.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+        [3] = {
+            title = "Ground Floor",
+            description = "Casino Main Hall",
+            zones = {
+                [1] = {coords = vec4(-269.5121, -918.5275, 32.60, 340.00), size = vec3(2.5, 2.5, 2.6)},
+            },
+            locked = false,
+            item = false,
+            jobs = false,
+        },
+    },
+},
 ["medical-center-vespucci"] = {
     label = "Medical Center Vespucci",
     debug = false,
