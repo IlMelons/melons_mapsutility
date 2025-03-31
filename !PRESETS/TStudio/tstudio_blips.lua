@@ -21,6 +21,15 @@
     alpha = 255,
     scale = 0.8,
 },
+["beach-party-pier"] = {
+    label = "Beach Party Pier",
+    coords = vec3(-1492.12, -1481.77, 4.00),
+    display = 2,
+    sprite = 836,
+    color = 48,
+    alpha = 255,
+    scale = 0.8,
+},
 ["bennys-docks"] = {
     label = "Benny's Docks",
     coords = vec3(159.55, -3033.19, 6.96),
