@@ -7,15 +7,11 @@ function Notify(title, msg, type)
     })
 end
 
-function InitMapsUtility()
-    SetupSeats()
-    SetupBlips()
-    SetupElevators()
-    SetupIPL()
-end
-
 AddEventHandler("onClientResourceStart", function(resourceName)
     local scriptName = cache.resource or GetCurrentResourceName()
     if resourceName ~= scriptName then return end
-    InitMapsUtility()
+    SetupBlips()
+    SetupElevators()
+    SetupSeats()
+    SetupIPL()
 end)
