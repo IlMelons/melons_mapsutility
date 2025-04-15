@@ -67,6 +67,6 @@ return {
 		},
 		---@description Paste the presets here 🔽 [https://github.com/IlMelons/Melons-Presets/tree/main/sitanywhere]
 
-    	---@description Paste the presets here 🔼 [https://github.com/IlMelons/Melons-Presets/tree/main/sitanywhere]
+    		---@description Paste the presets here 🔼 [https://github.com/IlMelons/Melons-Presets/tree/main/sitanywhere]
 	},
 }
