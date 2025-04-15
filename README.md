@@ -9,7 +9,7 @@ We provide also the presets of various features for some MLOs of supported creat
 [Melons Presets](https://github.com/IlMelons/Melons-Presets)
 
 ## Separate Scripts
-[melons_blips](https://github.com/IlMelons/melons_blips)
+[melons_blips](https://github.com/IlMelons/melons_blips) (Only Blips Management)
 
 ## LICENSE | (C) 2025 Melons Development
 
