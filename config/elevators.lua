@@ -11,8 +11,8 @@ return {
                         [1] = {coords = vec4(136.0807, -761.7469, 46.00, 160.00), size = vec3(2.0, 2.0, 2.5)}
                     },
                     locked = false,
-                    item = false,                   -- false to disable check or "item" or {"item1", "item2"}
-                    jobs = false,                   -- false to disable check or "job" or{"job1", "job2"}
+                    item = false,
+                    jobs = false,
                 },
                 [2] = {
                     title = "Floor 47",
@@ -36,5 +36,8 @@ return {
                 }
             },
         },
+        ---@description Paste the presets here 🔽 [https://github.com/IlMelons/Melons-Presets/tree/main/elevators]
+
+        ---@description Paste the presets here 🔼 [https://github.com/IlMelons/Melons-Presets/tree/main/elevators]
     },
 }
