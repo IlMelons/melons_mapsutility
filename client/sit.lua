@@ -140,7 +140,7 @@ local function PlaySit(entity, seatID)
         disabled = true,
         onReleased = function(self)
             lib.hideTextUI()
-            ClearPedTasksImmediately(playerPed)
+            ClearPedTasks(playerPed)
             seatID -= 1
             TriggerServerEvent("melons_mapsutility:server:ModelRegistration", entityNetID, seatID)
             if seatID == 0 then
